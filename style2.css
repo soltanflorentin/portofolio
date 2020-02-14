@@ -1,0 +1,141 @@
+
+html, body {
+  height: 100%;
+  background: #cccccc;
+}
+/*parallax*/
+.parallax{
+  background-image: url("fundal.jpg");
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*container2*/
+.container{
+  margin-top: -150px;
+}
+/*Nume si functia*/
+.text-center{
+  font-size: 23px;
+}
+/*Social media*/
+.numeSiSocial{
+  padding: 10px;
+  background: white;
+}
+.socialMedia{
+  padding: 15px;
+  text-align: center;
+  border-top:1px dashed #ccc;
+}
+.fab{
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+.fa-facebook-f{
+  padding-left: 13px;
+  padding-right: 13px;
+}
+.fa-facebook-f:hover{
+  background: blue;
+  color:white;
+}
+.fa-twitter:hover{
+  background: yellow;
+  color:white;
+}
+.fa-youtube:hover{
+  background: red;
+  color:white;
+}
+
+/*Meniu*/
+.meniu{
+  background: white;
+}
+.meniu ul{
+  padding: 0px;
+}
+.meniu ul li{
+  float: left;
+  list-style: none;
+  padding: 15px;
+
+  border-right: 2px dashed orange;
+}
+.meniu ul li a{
+  text-decoration: none;
+}
+.meniu ul li:last-child{
+  border-right: none;
+}
+.meniu ul li:hover{
+  color: orange;
+  border-bottom: 2px solid orange;
+}
+.meniu ul li a:hover{
+  color: orange;
+}
+/*Content*/
+.content{
+  background: white;
+}
+
+
+.hrContent{
+  border:0;
+  border-top: 1px dashed #ccc;
+}
+/*sectiune sub text*/
+.sectiuneSubText{
+  background: #eee;
+}
+/*Scale*/
+.scalaOut{
+  width: 80%;
+  height: 8px;
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+.scalaIn{
+  height: 7px;
+  background: blue;
+  width: 30%;
+}
+/*Icons bottom*/
+.iconsBottom .fas{
+  margin: 5px;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 30px;
+  background: #243c4f;
+  color: white;
+  font-size: 20px;
+}
+.iconsBottom{
+  float: left;
+}
+.textBottom{
+  float: left;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.icoaneJos{
+  background: white;
+}
+/*Footer text*/
+.footer{
+  font-size: 15px;
+  color: #b4b4b4;
+}
+.icoanejos .hr1{
+  color: red;
+}
+/*cantact page*/
+.form-group textarea{
+  width: 100%;
+}
