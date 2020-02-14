@@ -64,6 +64,15 @@
 
                 <button type="submit" name="trimite" class="btn btn-default">Submit</button>
       </form>
+       <?php
+		$name= $_POST("Nume");
+		$email= $_POST("Email");
+		$subject= $_POST("Subiect");
+		$mesage= $_POST("mesaj").$name.' '.$$email;
+		
+		mail('soltanflorentin@gmail.com',$subject, $mesage);
+	  
+	  ?>
       <br>
     </div>
 
